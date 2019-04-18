@@ -22,12 +22,6 @@ export class AssetService {
     { name: 'oeuf13', url: 'url("../../assets/oeuf13.png")' },
     { name: 'oeuf14', url: 'url("../../assets/oeuf14.png")' },
     { name: 'oeuf15', url: 'url("../../assets/oeuf15.png")' }
- 
-
-
-
-
-
   ];
 
   constructor() { }

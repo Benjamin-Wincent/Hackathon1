@@ -21,14 +21,10 @@ import { AssetService } from './asset.service';
 export class GameService {
 
 
-  constructor(public map : MapService, public asset : AssetService) { }
+  constructor(public map : MapService, public assetService: AssetService) { }
 
-onEggClick() {
-  if(this.asset.assets = this.asset.getAsset()) {
-    console.log("yes")
-  }
-  else{
-    console.log('no')
-  }
-}
-}
+//onEggClick() {
+//  this.assetService.getAsset() = this.map.;
+//    return console.log("yes");
+//}
+//}

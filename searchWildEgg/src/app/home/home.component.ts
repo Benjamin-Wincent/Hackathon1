@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EasterApiService } from '../easter-api.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+characterImg: string;
+characterName: string;  
+
+  constructor(private easterService : EasterApiService) { }
 
   ngOnInit() {
   }
 
+  getCharacter() {
+  this.easterService.getcharacter().subscribe(data => {
+      this.characterImg = data.image
+      this.characterName = data.name});
+  }
 }

@@ -36,7 +36,7 @@ export class EasterApiService {
   }
 
   getcharacter() : Observable<characterAPI> {
-    return this.http.get<characterAPI>("http://easteregg.wildcodeschool.fr/api/characters")
+    return this.http.get<characterAPI>(`http://easteregg.wildcodeschool.fr/api/characters/random`)
   }
 
 }
