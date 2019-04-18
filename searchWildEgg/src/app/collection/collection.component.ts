@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EasterApiService } from '../easter-api.service';
 
 @Component({
   selector: 'app-collection',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CollectionComponent implements OnInit {
 
-  constructor() { }
+  public eggs : any;
+  public characters : any;
+
+  constructor(private easterService : EasterApiService) { }
 
   ngOnInit() {
+    this.easterService.getEgg().subscribe(data => this.eggs = data);
+    this.easterService.getcharacter().subscribe(data => this.characters = data);
   }
-
+  
 }

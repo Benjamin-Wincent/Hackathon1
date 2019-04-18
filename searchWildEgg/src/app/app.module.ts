@@ -6,19 +6,26 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MapComponent } from './map/map.component';
 import { CollectionComponent } from './collection/collection.component';
+import { EasterApiService } from './easter-api.service';
+import { HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FootbarComponent } from './footbar/footbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     MapComponent,
-    CollectionComponent
+    CollectionComponent,
+    NavbarComponent,
+    FootbarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [EasterApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
