@@ -16,6 +16,17 @@ export class AssetService {
     { name: 'oeuf7', url: 'url("../../assets/oeuf7.png")' },
     { name: 'oeuf8', url: 'url("../../assets/oeuf8.png")' },
     { name: 'oeuf9', url: 'url("../../assets/oeuf9.png")' },
+    { name: 'oeuf10', url: 'url("../../assets/oeuf10.png")' },
+    { name: 'oeuf11', url: 'url("../../assets/oeuf11.png")' },
+    { name: 'oeuf12', url: 'url("../../assets/oeuf12.png")' },
+    { name: 'oeuf13', url: 'url("../../assets/oeuf13.png")' },
+    { name: 'oeuf14', url: 'url("../../assets/oeuf14.png")' },
+    { name: 'oeuf15', url: 'url("../../assets/oeuf15.png")' }
+ 
+
+
+
+
 
   ];
 

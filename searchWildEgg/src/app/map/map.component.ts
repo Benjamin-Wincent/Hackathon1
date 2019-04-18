@@ -1,4 +1,4 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MapService } from '../map.service';
 import { AssetService } from '../asset.service';
 
