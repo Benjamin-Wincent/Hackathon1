@@ -10,6 +10,7 @@ import { EasterApiService } from './easter-api.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FootbarComponent } from './footbar/footbar.component';
+import { ChoiceComponent } from './choice/choice.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FootbarComponent } from './footbar/footbar.component';
     MapComponent,
     CollectionComponent,
     NavbarComponent,
-    FootbarComponent
+    FootbarComponent,
+    ChoiceComponent
   ],
   imports: [
     BrowserModule,

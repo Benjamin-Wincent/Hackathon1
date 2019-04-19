@@ -3,10 +3,12 @@
 
   <div id="map">
     <div class="row" *ngFor="let row of map">
-      <div class="col" *ngFor="let col of row" [ngStyle]="{'background-image': assets[col].url}" (click)="onEggClick()">
+      <div class="col" *ngFor="let col of row" [ngStyle]="{'background-image': assets[col].url}" (click)="game.onEggClick(assets[col])">
       </div>
     </div>
   </div>
 
 </div>
+
+<app-choice></app-choice>
 <app-footbar></app-footbar>
