@@ -27,4 +27,4 @@ export class GameService {
 //  this.assetService.getAsset() = this.map.;
 //    return console.log("yes");
 //}
-//}
+}
