@@ -4,3 +4,21 @@
     background-image: url(../assets/herbe.png);
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    background-image: cover;
+    position: absolute;
+ }
+
+ @font-face {
+ font-family : "Betty_Regular.ttf";
+ src: url("/assets/Police/Betty_Regular.ttf");
+ }
