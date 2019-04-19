@@ -1,16 +1,16 @@
 <router-outlet></router-outlet>
 <div class="background">
-    <img class="image" src='assets/background.png'>
+   <img class="image" src='assets/background.png'>
 
 <div class="container text-center">
-    <button type="button" (click)="getCharacter()">CLICK</button>
-  <div class="row">
+   <button type="button" class="btn btn-info" (click)="getCharacter()">CLICK</button>
+ <div class="row">
 <div *ngIf="characterImg">
-  <img class="card-img-top" [src]="characterImg" alt="Card image align-center">
-  <div class="card-body">
-    <h5 class="card-title text-center">{{ characterName }}</h5>
-    <p class="card-text"></p>
-  </div>
+ <img class="card-img-top" [src]="characterImg" alt="Card image align-center">
+ <div class="card-body">
+   <h5 class="card-title text-center">{{ characterName }}</h5>
+   <p class="card-text"></p>
+ </div>
 </div>
 </div>
 </div>

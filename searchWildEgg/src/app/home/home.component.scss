@@ -2,17 +2,28 @@
     width: 80%;
     margin: auto;
     position: absolute;
-    
-}
-
-.image {
+ 
+ }
+ 
+ .image {
     width: 100%;
     height: 100%;
     background-image: cover;
     position: absolute;
  }
-
+ 
  @font-face {
  font-family : "Betty_Regular.ttf";
  src: url("/assets/Police/Betty_Regular.ttf");
+ }
+ 
+ 
+ .btn{
+     width: auto;
+     height: auto;
+     font-family : "Betty_Regular.ttf";
+     font-size: 80px;
+     position: absolute;
+     top: 400px;
+ 
  }
